@@ -18,5 +18,6 @@ npm run lint
 npm run lint:fix
 ```
 - Review and Commit: After fixing linting issues, review your changes, commit, and push them before making a Pull Request.
+- Careful with auto-formatter: Make sure to only modify your tasks, not other folders/files
 
 © 2025 [kodacademy.id](https://kodacademy.id)
