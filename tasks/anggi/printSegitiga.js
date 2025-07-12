@@ -1,4 +1,7 @@
-function printSegitiga(num) {               // Mendefinisikan fungsi bernama printSegitiga yang menerima satu parameter num
+function printSegitiga(num) {  
+  if (typeof num !== "number" || num <= 0){
+  throw new Error ("Parameter harus bertipe data nomor dan harus nomor positif ")      
+  }                                              // Mendefinisikan fungsi bernama printSegitiga yang menerima satu parameter num
   for (let i = 1; i <= num; i++) {          // Loop yang berjalan dari 1 hingga num. Variabel i mewakili baris ke-berapa yang sedang diproses
     let baris = '';                         // Mendeklarasikan variabel baris sebagai string kosong untuk menyimpan isi dari setiap baris
 
@@ -10,14 +13,14 @@ function printSegitiga(num) {               // Mendefinisikan fungsi bernama pri
   }
 }
 
-// console.log('\nprintSegitiga(1):');
-// printSegitiga(1);
+console.log('\nprintSegitiga(1):');
+printSegitiga(1);
 
-// console.log('\nprintSegitiga(2):');
-// printSegitiga(2);
+console.log('\nprintSegitiga(2):');
+printSegitiga(2);
 
-// console.log('printSegitiga(5):');
-// printSegitiga(5);
+console.log('printSegitiga(5):');
+printSegitiga(5);
 
 module.exports = printSegitiga;
 
