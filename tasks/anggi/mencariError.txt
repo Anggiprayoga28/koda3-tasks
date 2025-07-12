@@ -1,0 +1,29 @@
+1.  a. error: user belum dibuat
+    b. file, fungsi dan baris:
+        - app.js, getUserData, baris 15
+        - app.js, processUser, baris 30
+        - app.js, main, baris 50
+
+
+2.  a. error: tidak dapat membaca properti null, karena null memang tidak punya properti
+    b. file, fungsi dan baris:
+        - data.js, processData, baris 8
+        - server.js, handleRequest, baris 20
+        - app.js, main, baris 35
+
+
+3.  a. error: tanda tutup kurung salah, mungkin kelebihan atau kekurangan tanda tutup kurung
+    b. file, fungsi dan baris:
+        - script.js, -, baris 15
+
+
+4.  a. error: tidak dapat membaca properti undefined, karena undefined memang tidak punya properti status
+    b. file, fungsi dan baris:
+        - order.js, updateOrder, baris 18
+        - order.js, processOrder, baris 35
+        - cart.js, checkout, baris 50
+
+
+1.  a. error: fungsi rekursi tidak terbatas 
+    b. file, fungsi dan baris:
+        - app.js, recursiveFunction, baris 10
